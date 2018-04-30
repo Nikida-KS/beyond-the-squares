@@ -1,0 +1,117 @@
+/* color family
+  Purple: #7645ff, rgb(118,69,255) Light version: #AE92FF rgb(174,146,255)
+  Coral: #FF7645 rgb(255,118,69) Light version: #ffae92 rgb(255,174,146)
+  Teal: #03FFC1 rgb(3,255,193)
+  Green:#45FF76 rgb(69,255,118) Light version: #92FFAE rgb(146,255,174)
+  Bright Blue: #45CEFF rgb (69,206,255) Light version: #92E2FF rgb (146,226,255)
+  Matte blue: #4571FF rgb(69,113,255) light version: #92ABFF (146,171,255)
+  Pink: #FF4571 rgb (255,69,113) Light version: #FF92AB rgb(255,146,171)
+  Yellow: #FFD345 (255,211,69) Light version: #FFE592 (255,229,146) */
+
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 98px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: light;
+}
+
+header{
+  background: url("../images/scissors-needle.jpg") no-repeat center bottom;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  max-width: 960px;
+  background-color: rgb(118,69,255,0.8);
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.title hr{
+  height: 7px;
+  background-color: white;
+  width: 70%;
+}
+
+
+nav{
+  width: 100%;
+  display: flex;
+  background-color: #FF7645;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.nav{
+  text-decoration: underline;
+  color: white;
+  width: auto;
+}
+
+.nav:hover{
+  color:#ffae92;
+}
+
+.story-intro{
+  max-width: 890px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.story-intro h2{
+   color: #FF7645;
+   font-family: "Amatic SC", cursive;
+   font-size: 50px;
+   font-weight: bolder;
+}
+
+.story-intro h3{
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FF7645;
+}
+
+img{
+  width: 30%;
+  height: 30%;
+  border: 4px solid black;
+}
+
+.right{
+  float: right;
+  border-radius: 5%;
+  margin: 4%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.left{
+  float: left;
+  border-radius: 50%;
+  margin-right: 8%;
+}

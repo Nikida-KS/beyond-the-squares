@@ -21,6 +21,12 @@ h2{
   font-weight: bolder;
 }
 
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 header{
   background: url("../images/scissors-needle.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -53,10 +59,12 @@ nav{
   color: white;
   justify-content: space-around;
   flex-wrap: wrap;
+
 }
 
 .nav{
   text-decoration: underline;
+  color: white;
   width: auto;
 }
 

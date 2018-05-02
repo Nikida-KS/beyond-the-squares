@@ -104,6 +104,10 @@ main h2 {
   color: #FF7645;
 }
 
+.call-to-action{
+  margin: 40px;
+}
+
 .tutorial {
   width: 255px;
   border: 1px solid #e6e6e6;

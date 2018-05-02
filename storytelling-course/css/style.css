@@ -36,10 +36,6 @@ p {
   margin: 20px 10px 10px 10px;
 }
 
-hr {
-  margin: 10px auto;
-}
-
 header {
   background: url("../images/scissors-needle.jpg") no-repeat center bottom;
   background-size: cover;
@@ -86,41 +82,35 @@ nav {
   color: #ffae92;
 }
 
-.story-intro {
-  max-width: 890px;
-  margin: auto;
+.gallery{
+  max-width: 960px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.portfolio{
+  width: 425px;
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 2px 2px 2px #e6e6e6;
+  margin: 20px auto;
+  padding: 10px;
   overflow: hidden;
+  text-align: center;
 }
 
-.story-intro h2 {
-  color: #FF7645;
-  font-family: "Amatic SC", cursive;
-  font-size: 50px;
-  font-weight: bolder;
+.portfolio img {
+  width: 100%;
+  object-position: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
-.story-intro h3 {
-  font-size: 18px;
-  font-weight: bolder;
-  color: #FF7645;
-}
-
-img {
-  width: 30%;
-  height: 30%;
-  border: 4px solid black;
-}
-
-.right {
-  float: right;
-  border-radius: 5%;
-  margin: 4%;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
-.left {
-  float: left;
-  border-radius: 50%;
-  margin-right: 8%;
+.storytelling-intro{
+  max-width: 840px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
 }

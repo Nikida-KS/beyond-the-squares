@@ -134,3 +134,12 @@ main h2 {
   object-position: center;
   margin-right: 10px;
 }
+footer{
+  background-color: #FF7645;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 80px;
+}

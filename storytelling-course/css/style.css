@@ -114,3 +114,13 @@ nav {
   margin: 0 auto;
   margin-top: 40px;
 }
+
+footer{
+  background-color: #FF7645;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 80px;
+}

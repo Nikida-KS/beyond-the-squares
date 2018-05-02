@@ -33,7 +33,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: lighter;
-  margin: 20px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 hr {
@@ -85,11 +85,12 @@ nav {
   color: #ffae92;
 }
 
-.start-banner h1{
+.start-banner h1 {
   font-size: 68px;
   color: #FF7645;
 }
-.start-banner{
+
+.start-banner {
   max-width: 960px;
   display: flex;
   justify-content: space-between;
@@ -98,27 +99,26 @@ nav {
   align-items: center;
 }
 
-
 .start {
-    display: block;
-    width: 60%;
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 14px 28px;
-    margin: 20px auto;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  width: 60%;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  margin: 20px auto;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .start:hover {
-    background-color: rgb(118, 69, 255, 0.8);
-    color: white;
+  background-color: rgb(118, 69, 255, 0.8);
+  color: white;
 }
 
-.gallery{
+.gallery {
   max-width: 960px;
   display: flex;
   justify-content: space-around;
@@ -127,8 +127,17 @@ nav {
   flex-flow: row wrap;
 }
 
-.quilt-pic{
+.quilt-pic {
   padding: 5px;
   border: 2px solid black;
   width: 450px;
+}
+
+footer{
+  background-color: #FF7645;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
 }

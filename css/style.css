@@ -33,7 +33,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: light;
-  margin: 20px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 hr {
@@ -83,4 +83,8 @@ nav {
 
 .nav:hover {
   color: #ffae92;
+}
+
+footer{
+  background-color: #FF7645;
 }

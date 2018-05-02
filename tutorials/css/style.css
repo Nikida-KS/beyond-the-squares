@@ -8,32 +8,43 @@
   Pink: #FF4571 rgb (255,69,113) Light version: #FF92AB rgb(255,146,171)
   Yellow: #FFD345 (255,211,69) Light version: #FFE592 (255,229,146) */
 
-h1{
+h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 98px;
   font-weight: bolder;
   margin: 0px;
 }
-h2{
+
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: bolder;
+  margin: 20px 10px 10px 10px;
 }
-h3{
+
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: bold;
-}
-p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: light;
+  margin: 10px 10px 10px 10px;
 }
 
-body{
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 20px 10px 10px 10px;
+}
+
+hr {
+  margin: 10px auto;
+}
+
+body {
   margin: 0 auto;
 }
-header{
+
+header {
   background: url("../images/scissors-needle.jpg") no-repeat center bottom;
   background-size: cover;
   width: 100%;
@@ -42,62 +53,80 @@ header{
   justify-content: center;
   align-items: center;
 }
-.title{
+
+.title {
   max-width: 960px;
-  background-color: rgb(118,69,255,0.8);
+  background-color: rgb(118, 69, 255, 0.8);
   text-align: center;
   color: white;
   padding: 40px;
+  text-decoration: none;
 }
-.title hr{
+
+.title hr {
   height: 7px;
   background-color: white;
   width: 70%;
 }
 
-
-nav{
+nav {
   width: 100%;
   display: flex;
   background-color: #FF7645;
   color: white;
   justify-content: space-around;
   flex-wrap: wrap;
-
+  align-items: center;
+  height: 50px;
 }
-.nav{
+
+.nav {
   text-decoration: underline;
   color: white;
   width: auto;
 }
-.nav:hover{
-  color:#ffae92;
+
+.nav:hover {
+  color: #ffae92;
 }
 
-main{
+main {
   max-width: 960px;
   margin: auto;
   overflow: hidden;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  text-align: center;
 }
 
-.tutorial{
+main h2 {
+  color: #FF7645;
+}
+
+.tutorial {
   width: 255px;
   border: 1px solid #e6e6e6;
-  box-shadow: 0px 0px 2px 2px #e6e6e6;
+  box-shadow: 2px 2px 2px 2px #e6e6e6;
   margin: 20px;
   padding: 10px;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
 
-.icon{
+.tutorial:hover {
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+  box-shadow: 5px 5px 5px 2px #e6e6e6;
+}
+
+.icon {
   width: 80px;
   height: 80px;
-  border: 2px solid #e6e6e6;
+  object-position: center;
+  margin-right: 10px;
 }
